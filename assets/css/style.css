@@ -455,16 +455,17 @@ main {
 \*-----------------------------------*/
 
 .navbar {
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   left: 0;
   width: 100%;
   background: hsla(240, 1%, 17%, 0.75);
   backdrop-filter: blur(10px);
   border: 1px solid var(--jet);
-  border-radius: 12px 12px 0 0;
+  border-radius: 12px 12px 12px 12px;
   box-shadow: var(--shadow-2);
   z-index: 5;
+  margin-bottom: 15px;
 }
 
 .navbar-list {
@@ -477,7 +478,7 @@ main {
 
 .navbar-link {
   color: var(--light-gray);
-  font-size: var(--fs-8);
+  font-size: initial;
   padding: 20px 7px;
   transition: color var(--transition-1);
 }
