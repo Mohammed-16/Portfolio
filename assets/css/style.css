@@ -1043,6 +1043,28 @@ main {
   font-weight: var(--fw-300);
 }
 
+.project-desc {
+  color: var(--light-gray);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin: 8px 10px 0;
+}
+
+.project-tags { margin: 12px 10px 0; }
+
+.portfolio-note {
+  color: var(--light-gray-70);
+  font-size: var(--fs-6);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.project-case .project-img { background: var(--eerie-black-1); }
+
+.project-case .project-img img { object-fit: contain; }
+
 
 
 
