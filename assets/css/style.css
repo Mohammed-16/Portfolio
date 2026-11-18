@@ -855,6 +855,22 @@ main {
   font-weight: var(--fw-300);
 }
 
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  background: var(--onyx);
+  color: var(--light-gray);
+  font-size: var(--fs-7);
+  font-weight: var(--fw-300);
+  padding: 4px 12px;
+  border-radius: 20px;
+  border: 1px solid var(--jet);
+}
+
 .skill-progress-bg {
   background: var(--jet);
   width: 100%;
