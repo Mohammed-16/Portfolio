@@ -452,6 +452,14 @@
               <button class="active" data-filter-btn>All</button>
             </li>
 
+            <li class="filter-item">
+              <button data-filter-btn>AI &amp; LLMs</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Blockchain</button>
+            </li>
+
 
 
           </ul>
@@ -475,6 +483,10 @@
               </li>
 
               <li class="select-item">
+                <button data-select-item>AI &amp; LLMs</button>
+              </li>
+
+              <li class="select-item">
                 <button data-select-item>Blockchain</button>
               </li>
 
@@ -482,25 +494,48 @@
 
           </div>
 
+          <p class="portfolio-note">
+            The AI projects are production work at LeistungsLotse, so the code is private. Happy to walk through how
+            they work in an interview. The blockchain projects below are earlier open-source work.
+          </p>
+
           <ul class="project-list">
 
-            <!-- <li class="project-item  active" data-filter-item data-category="blockchain">
-              <a href="https://github.com/Mohammed-16/OpenBazaar" target="_blank">
-
+            <li class="project-item  active" data-filter-item data-category="ai &amp; llms">
+              <div class="project-case">
                 <figure class="project-img">
-                  <div class="project-item-icon-box">
-                    <ion-icon name="eye-outline"></ion-icon>
-                  </div>
-
-                  <img src="./assets/images/open bazzar.jpeg" height="100" alt="Open Bazzar" loading="lazy">
+                  <img src="./assets/images/case-law-agent.svg" alt="Law Amendment Agent" loading="lazy">
                 </figure>
+                <h3 class="project-title">Law Amendment Agent</h3>
+                <p class="project-category">LeistungsLotse · in production</p>
+                <p class="project-desc">Nightly agent that detects changes to German benefit law, rewrites the affected paragraphs from the official text and opens a pull request for human review.</p>
+                <ul class="skill-tags project-tags"><li class="skill-tag">AI agents</li><li class="skill-tag">LLMs</li><li class="skill-tag">CI/CD</li></ul>
+              </div>
+            </li>
 
-                <h3 class="project-title">Open Bazzar</h3>
+            <li class="project-item  active" data-filter-item data-category="ai &amp; llms">
+              <div class="project-case">
+                <figure class="project-img">
+                  <img src="./assets/images/case-llm-eval.svg" alt="LLM Evaluation for Wohngeld" loading="lazy">
+                </figure>
+                <h3 class="project-title">LLM Evaluation for Wohngeld</h3>
+                <p class="project-category">LeistungsLotse · in production</p>
+                <p class="project-desc">Evaluation setup comparing 15+ models, including Gemini, Qwen, GLM and DeepSeek, on real Wohngeld cases. An LLM judge scores accuracy, alongside speed and cost.</p>
+                <ul class="skill-tags project-tags"><li class="skill-tag">LLM-as-judge</li><li class="skill-tag">Evaluation</li><li class="skill-tag">Python</li></ul>
+              </div>
+            </li>
 
-                <p class="project-category">Smart contract development & Frontend UI </p>
-
-              </a>
-            </li> -->
+            <li class="project-item  active" data-filter-item data-category="ai &amp; llms">
+              <div class="project-case">
+                <figure class="project-img">
+                  <img src="./assets/images/case-ingestion.svg" alt="Legal Document Ingestion" loading="lazy">
+                </figure>
+                <h3 class="project-title">Legal Document Ingestion</h3>
+                <p class="project-category">LeistungsLotse · in production</p>
+                <p class="project-desc">OCR pipeline that turns PDF and DOCX documents into clean Markdown for retrieval, inside a multi-tenant CMS built with Next.js and TypeScript.</p>
+                <ul class="skill-tags project-tags"><li class="skill-tag">OCR</li><li class="skill-tag">RAG</li><li class="skill-tag">Next.js</li></ul>
+              </div>
+            </li>
 
             <li class="project-item  active" data-filter-item data-category="blockchain">
               <a href="https://github.com/Mohammed-16/Unite-3-Hack-The-Chain" target="_blank">
@@ -516,6 +551,8 @@
                 <h3 class="project-title">UNITE3</h3>
 
                 <p class="project-category">Smart contract development & Integration</p>
+
+                <p class="project-desc">Smart contracts and web app integration, built for the Hack The Chain hackathon.</p>
 
               </a>
             </li>
@@ -537,6 +574,8 @@
 
                 <p class="project-category">ERC20 token Smart contract development & Frontend Integration</p>
 
+                <p class="project-desc">ERC20 token and yield farming smart contracts, integrated into a frontend.</p>
+
               </a>
             </li>
 
@@ -556,6 +595,8 @@
                 <h3 class="project-title">Files Dapp</h3>
 
                 <p class="project-category">Smart contract development & Integration</p>
+
+                <p class="project-desc">Dapp for storing and sharing files, with smart contract integration.</p>
 
               </a>
             </li>
